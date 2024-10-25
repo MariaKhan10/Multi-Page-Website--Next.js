@@ -9,13 +9,13 @@ const Accessories = () => {
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
               alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+              className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto object-cover object-center rounded"
               src={"/pictures/image3.png"}
               width={500}
               height={500}
               style={{
                 filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
-                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
+                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)",
               }}
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
@@ -182,21 +182,20 @@ const Accessories = () => {
           </div>
         </div>
 
-        {/* second image */}
-
-        <div className="container px-5 py-24 mx-auto">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <Image
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src={"/pictures/image4.png"}
-              width={500}
-              height={500}
-              style={{
-                filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
-                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
-              }}
-            />
+      {/* second image */}
+<div className="container px-5 py-24 mx-auto">
+  <div className="lg:w-4/5 mx-auto flex flex-wrap">
+    <Image
+      alt="ecommerce"
+      className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto object-cover object-center rounded"
+      src={"/pictures/image4.png"}
+      width={500}
+      height={500}
+      style={{
+        filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
+        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
+      }}
+    />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Maria's Royal Attire
@@ -361,21 +360,20 @@ const Accessories = () => {
           </div>
         </div>
 
-        {/* third image */}
-
-        <div className="container px-5 py-24 mx-auto">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <Image
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src={"/pictures/image5.png"}
-              width={500}
-              height={500}
-              style={{
-                filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
-                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
-              }}
-            />
+       {/* third image */}
+<div className="container px-5 py-24 mx-auto">
+  <div className="lg:w-4/5 mx-auto flex flex-wrap">
+    <Image
+      alt="ecommerce"
+      className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto object-cover object-center rounded"
+      src={"/pictures/image5.png"}
+      width={500}
+      height={500}
+      style={{
+        filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
+        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
+      }}
+    />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Maria's Royal Attire
@@ -541,20 +539,19 @@ const Accessories = () => {
         </div>
 
         {/* fourth image */}
-
-        <div className="container px-5 py-24 mx-auto">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-          <Image
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src={"/pictures/image7.png"}
-              width={500}
-              height={500}
-              style={{
-                filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
-                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
-              }}
-            />
+<div className="container px-5 py-24 mx-auto">
+  <div className="lg:w-4/5 mx-auto flex flex-wrap">
+    <Image
+      alt="ecommerce"
+      className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto object-cover object-center rounded"
+      src={"/pictures/image7.png"}
+      width={500}
+      height={500}
+      style={{
+        filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
+        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
+      }}
+    />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Maria's Royal Attire
@@ -719,21 +716,20 @@ const Accessories = () => {
           </div>
         </div>
 
-        {/* fifth image */}
-
-        <div className="container px-5 py-24 mx-auto">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <Image
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src={"/pictures/image6.png"}
-              width={500}
-              height={500}
-              style={{
-                filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
-                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
-              }}
-            />
+    {/* fifth image */}
+<div className="container px-5 py-24 mx-auto">
+  <div className="lg:w-4/5 mx-auto flex flex-wrap">
+    <Image
+      alt="ecommerce"
+      className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto object-cover object-center rounded"
+      src={"/pictures/image6.png"}
+      width={500}
+      height={500}
+      style={{
+        filter: "brightness(1.1) contrast(1.05) saturate(1.1)",
+        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.7)", // Adding a soft shadow
+      }}
+    />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Maria's Royal Attire
