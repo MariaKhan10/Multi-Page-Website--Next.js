@@ -23,7 +23,10 @@ const Navbar = () => {
               src="/pictures/logo.png"
               className="logo-image"
             />
-            <span className="ml-2 text-lg font-semibold">Maria’s Royal Attire</span>
+            <span className="ml-2 text-lg font-semibold" style={{ fontFamily: "'Playfair Display', serif" }}>
+  Maria’s Royal Attire
+</span>
+
           </a>
 
           {/* Hamburger Menu Button for Mobile */}
