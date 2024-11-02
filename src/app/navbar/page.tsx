@@ -23,9 +23,13 @@ const Navbar = () => {
               src="/pictures/logo.png"
               className="logo-image"
             />
-            <span className="ml-2 text-lg font-semibold" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <span 
+  className="ml-2 text-lg font-semibold" 
+  style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}
+>
   Maria’s Royal Attire
 </span>
+
 
           </a>
 
